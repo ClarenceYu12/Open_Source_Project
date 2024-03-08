@@ -16,4 +16,4 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          echo test, and deploy your project.
+            echo test, and deploy your project.
