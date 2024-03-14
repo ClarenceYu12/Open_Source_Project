@@ -42,8 +42,8 @@ By contributing to Project Name, you agree to license your contributions under t
 
 ## Review Process
 
--  Pull requests will be reviewed by maintainers before merging into the main codebase.
--  Contributors may be asked to make revisions based on feedback from reviewers.
+- Pull requests will be reviewed by maintainers before merging into the main codebase.
+- Contributors may be asked to make revisions based on feedback from reviewers.
 
 ## Updating Guidelines
 
