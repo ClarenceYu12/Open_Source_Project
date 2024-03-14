@@ -17,14 +17,14 @@ The purpose of these contribution guidelines is to provide clear instructions an
 
 ## Testing Guidelines
 
--   Write unit tests for new features and bug fixes.
+-   Write unit tests for new features and bugfixes.
 -   Ensure all existing tests pass before submitting a pull request.
 -   Include instructions for manual testing, if applicable.
 
 
 ## Pull Request Guidelines
 
-1.  Create a new branch for each feature or bug fix.
+1.  Create a new branch for each feature or bugfix.
 2.  Ensure your branch is up-to-date with the `main` branch before submitting a pull request.
 3.  Include a detailed description of the changes made.
 4.  Reference any related issues in your pull request description.
