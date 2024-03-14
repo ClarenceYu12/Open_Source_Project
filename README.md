@@ -1,5 +1,5 @@
 # Tensorflow OSS Project
-This github contains an OSS group project aimed at working with the tensorflow OSS project to improve and contribute to it.
+This Github contains an OSS group project aimed at working with the tensorflow OSS project to improve and contribute to it.
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ClarenceYu12/Open_Source_Project)
 
 ## Installation
@@ -19,7 +19,7 @@ This github contains an OSS group project aimed at working with the tensorflow O
   
   
 ## Contributing
-Contributions are welcome here at this github, please read the contribution guidelines and the code of conduct
+Contributions are welcome here at this Github, please read the contribution guidelines and the code of conduct
 before starting though.
 
 ## Authors and Acknowledgement
