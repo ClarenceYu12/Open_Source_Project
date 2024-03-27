@@ -1,0 +1,260 @@
+
+/* Header */
+  .title {
+    font-size: 48px; /* Set font size for the title */
+    margin-left: 1vw;
+    margin-top: 40px;
+    white-space: nowrap;
+  }
+
+  .text {
+    font-size: 30px; /* Set font size for the text */
+    margin-top: 40px;
+    margin-left: 2vw;
+    white-space: nowrap;
+  }
+
+  .vl1 {
+    border-left: 3px solid rgb(83, 238, 127); /* Adjust color and thickness as needed */
+    height: 80px; /* Adjust height as needed */
+    margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+    margin-left: 30vw;
+  }
+
+  .vl2 {
+    border-left: 3px solid rgb(83, 238, 127); /* Adjust color and thickness as needed */
+    height: 80px; /* Adjust height as needed */
+    margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+    margin-left: 2vw;
+  }
+
+  .hl1 {
+    border-top: 3px solid rgb(83, 238, 127);
+    width: 95vw; /* Adjust height as needed */
+    margin-top: 0px; /* Adjust margin as needed to position the vertical line */
+    margin-left: 2.5vw;
+  }
+
+/* Body */
+  
+  .headerOptions {
+    font-size: 30px; /* Set font size for the title */
+    color: rgb(83, 238, 127);
+    background-color: rgb(55, 56, 56);
+    margin-left: 40px;
+    border: none;
+    white-space: nowrap;
+  }
+  
+  .title2 {
+    font-size: 40px; /* Set font size for the title */
+    margin-left: 2.5vw;
+    margin-top: 70px;
+    white-space: nowrap;
+  }
+
+  .title3 {
+    font-size: 40px; /* Set font size for the title */
+    margin-left: 0px;
+    margin-top: 70px;
+    white-space: nowrap;
+  }
+  
+  .title4 {
+    font-size: 30px; /* Set font size for the title */
+    margin-left: 0px;
+    margin-top: 0px;
+    white-space: nowrap;
+  }
+  
+  .text2 {
+    font-size: 24px; /* Set font size for the text */
+    width: 40vw;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .text3 {
+    font-size: 20px; /* Set font size for the text */
+    color:#b6b6b6;
+    margin-left: 20px;
+    margin-top: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column {
+    flex: none;
+    margin: 10px 0px; /* Add spacing between columns */
+  }
+  
+  .column1, .column2{
+    flex: none; /* Prevent columns from growing or shrinking */
+    width: 47vw; /* Set width to half of the viewport width */
+  }
+  
+  .subcol1-1, .subcol1-2{
+    margin-top: -40px;
+    flex: none; /* Prevent columns from growing or shrinking */
+    width: 25vw; /* Set width to half of the viewport width */
+  }
+  
+  .hl2{
+    border-top: 3px solid rgb(110, 110, 110);
+    width: 700px; /* Adjust height as needed */
+    margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+    margin-left: 30px;
+  }
+  
+  .hl3{
+    border-top: 3px solid rgb(83, 238, 127);
+    width: 95vw; /* Adjust height as needed */
+    margin-top: 60px; /* Adjust margin as needed to position the vertical line */
+    margin-left: 2.5vw;
+  }
+  
+  .imageBox {
+    width: 625px;
+    height: 250px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 60px;
+  }
+
+  .textBox {
+    width: 625px;
+    height: 250px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 60px;
+  }
+  
+  .UrlBar {
+    width: 460px;
+    height: 40px;
+    border: 2px solid #b6b6b6;
+    color: #b7b7b7;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: last baseline; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20px;
+    margin-left:20px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(83, 238, 127);
+    color: #ffffff;
+    border-radius: 20px 0px 20px 20px; /* Top-left, top-right, bottom-right, bottom-left */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  /* Choice Box */
+  .detectorChoice{
+    margin-top: 20px;
+    margin: 1vw;
+    width: 43vw;
+    height: 60px;
+    border:#ffffff;
+    background-color: rgb(138, 138, 138);
+    color: #ffffff;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .detectorChosen{
+    margin-top: 20px;
+    margin: 1vw;
+    width: 43vw;
+    height: 60px;
+    border:#ffffff;
+    background-color: rgb(83, 238, 127);
+    color: #ffffff;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .choiceNet{
+    margin-top: 20px;
+    margin-left: 2.5vw;
+    width: 90vw;
+    height: 80px;
+    border:#ffffff;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  /* Community */
+
+  .communityText{
+    font-size: 30px;
+    margin-left: 3vw;
+    margin-top: 0px;
+    width: 35vw
+  }
+
+  .communityButton{
+    width: 50vw;
+    height: 175px;
+    background-color: rgb(83, 238, 127);
+    color:rgb(255, 255, 255);
+    margin-left: 45vw;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .communityTitle{
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  .communityText2{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Feature */
+  .featureBox{
+    background-color: rgb(83, 238, 127);
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 2vw;
+    width: 22vw;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+  .featureTitle{
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+  .featureText{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+/* How it works */
+  .WorksTitle{
+    color: rgb(83, 238, 127);
+    font-size: 20px;
+  }
