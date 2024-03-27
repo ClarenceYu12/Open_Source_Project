@@ -24,7 +24,6 @@ jobs:
       with:
         node-version: '14'
         cache: 'npm'
-        cache-dependency-path: C:\Users\clare\Open_Source_Project\Open_Source_Project\react-typescript\react-typescript\package-lock.json
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
