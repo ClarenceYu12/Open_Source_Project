@@ -1,6 +1,7 @@
 import Image from './images/art.jpg'
 import AiImage from './images/Ai art.jpg'; // Import the image
 import '../style.css'
+import React from 'react';
 
 function IBodyCol2() {
     return (

@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './style.css';
+import React from 'react';
 
 function Header() {
     const navigate = useNavigate();
@@ -15,8 +16,6 @@ function Header() {
                 <button onClick={() => navigate('/Features')} className='headerOptions'>Feature</button>
                 <div className="vl2"></div>
                 <button onClick={() => navigate('/Community')} className='headerOptions'>Contributer</button>
-                <div className="vl2"></div>
-                <button onClick={() => navigate('/HowItWorks')} className='headerOptions'>How it works</button>
                 <div className="vl2"></div>
             </div>
 

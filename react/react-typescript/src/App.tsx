@@ -5,6 +5,7 @@ import Community from './Page/Community';
 import Features from './Page/Features';
 import HowItWorks from './Page/Works';
 import Error from './Page/ErrorPage';
+import React from 'react';
 
 function App() {
   return (

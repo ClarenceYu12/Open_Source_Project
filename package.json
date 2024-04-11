@@ -1,0 +1,12 @@
+{
+  "name": "open_source_project",
+  "version": "1.0.0",
+  "description": "This GitHub contains an OSS group project aimed at working with the tensorflow OSS project to improve and contribute to it.\r ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ClarenceYu12/Open_Source_Project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

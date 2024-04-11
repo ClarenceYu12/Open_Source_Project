@@ -4,6 +4,7 @@ import TBodyCol2 from '../components/Detector/TBodyCol2';
 import TChoiceBox from '../components/Detector/TChoiceBox';
 import '../components/style.css'
 import Footer from '../components/Footer';
+import React from 'react';
 
 
 function TextDetectorScreen() {
