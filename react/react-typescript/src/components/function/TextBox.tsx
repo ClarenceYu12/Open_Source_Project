@@ -1,5 +1,6 @@
 import {ChangeEvent, useState} from 'react';
-import '../../style.css'
+import '../style.css'
+import React from 'react';
 
 function TextBox() {
     const[val, setVal] = useState("")

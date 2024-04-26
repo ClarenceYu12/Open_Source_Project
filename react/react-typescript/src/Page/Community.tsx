@@ -2,6 +2,7 @@ import '../components/style.css';
 import Header from '../components/Header';
 import CommunityBody from '../components/Community/CommunityBody';
 import Footer from '../components/Footer';
+import React from 'react';
 
 function Community() {
     return (

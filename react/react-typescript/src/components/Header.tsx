@@ -6,7 +6,7 @@ function Header() {
     const navigate = useNavigate();
 
     return (
-        <div className='Header'>
+        <div className='container Header'>
             {/* Row */}
             <div className="row">
                 <h1 className='title'>Will it AI?</h1>

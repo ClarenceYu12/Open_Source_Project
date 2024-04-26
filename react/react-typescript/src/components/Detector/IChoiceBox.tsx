@@ -6,7 +6,7 @@ function IChoiceBox() {
     const navigate = useNavigate()
     return(
         <div className='choiceNet'>
-            <div className='row'>       
+            <div className='row'>     
             
             <div className='detectorChosen'>Image</div>
             

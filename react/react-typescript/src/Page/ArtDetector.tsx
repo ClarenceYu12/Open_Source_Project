@@ -8,31 +8,30 @@ import Footer from '../components/Footer';
 
 function ArtDetectorScreen() {
   return (
-    
-    <div className="App">
-    {/*Row 1*/}
+    <div className="container">
+      {/* Header */}
+      <Header />
+
+      {/* Main Content */}
       <div className="row">
-        <Header/>
+        {/* Column 1 */}
+        <div className="col-md-6">
+          <IBodyCol1 />
+        </div>
+        {/* Column 2 */}
+        <div className="col-md-6">
+          <IBodyCol2 />
+        </div>
       </div>
 
-    <div className='row'>
-      {/*Column 1*/}
-      <div className='column column2'>
-        <IBodyCol1/>
-      </div>
-      {/*Column 2*/}
-      <div className='column column2'>
-        <IBodyCol2/>
-      </div>
+      {/* Choice Box */}
+      <IChoiceBox />
+
+      {/* Footer */}
+      <Footer />
     </div>
-  <IChoiceBox/>
-
-  <div className='row'>
-    <Footer/>
-  </div>  
-
-</div>
   );
 }
-export default ArtDetectorScreen
+
+export default ArtDetectorScreen;
 

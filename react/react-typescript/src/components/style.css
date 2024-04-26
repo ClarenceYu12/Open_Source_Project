@@ -33,6 +33,7 @@
   width: 95vw; /* Adjust height as needed */
   margin-top: 0px; /* Adjust margin as needed to position the vertical line */
   margin-left: 2.5vw;
+  margin-right: 2.5vw;
 }
 
 /* Body */
@@ -48,8 +49,8 @@
 
 .title2 {
   font-size: 40px; /* Set font size for the title */
-  margin-left: 2.5vw;
   margin-top: 70px;
+  margin-left: 30px;
   white-space: nowrap;
 }
 
@@ -87,18 +88,16 @@
 }
 
 .column {
-  flex: none;
-  margin: 10px 0px; /* Add spacing between columns */
+  margin: 10px 20px; /* Add spacing between columns */
 }
 
 .column1, .column2{
-  flex: none; /* Prevent columns from growing or shrinking */
-  width: 47vw; /* Set width to half of the viewport width */
+  width: 47%; /* Set width to half of the viewport width */
+  margin-left: 100px;
 }
 
 .subcol1-1, .subcol1-2{
   margin-top: -40px;
-  flex: none; /* Prevent columns from growing or shrinking */
   width: 25vw; /* Set width to half of the viewport width */
 }
 
@@ -124,6 +123,18 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   margin-left: 60px;
+}
+
+.image {
+  width: 300px;
+  height: 150px;
+}
+
+.text {
+  width: 480px;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .textBoxWrapper {
@@ -202,7 +213,7 @@
 
 .choiceNet{
   margin-top: 20px;
-  margin-left: 2.5vw;
+  margin-left: 4vw;
   width: 90vw;
   height: 80px;
   border:#ffffff;
@@ -271,4 +282,5 @@ margin-left: 20px;
   color: rgb(83, 238, 127);
   font-size: 20px;
 }
+
 

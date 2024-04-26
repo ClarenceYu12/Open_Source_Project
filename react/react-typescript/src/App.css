@@ -1,0 +1,12 @@
+.app {
+    /* Define your base styles here */
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .app {
+      /* Adjust styles for smaller screens */
+      padding: 100px; /* Example adjustment for smaller screens */
+    }
+  }

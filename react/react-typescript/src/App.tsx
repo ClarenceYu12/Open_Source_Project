@@ -9,16 +9,16 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
+    <div className='container py-5'>
       <BrowserRouter>
         <Routes>
-          <Route index element = {<ImageDetectorScreen/>} />
-          <Route path='/TextDetector' element = {<TextDetectorScreen/>}/>
-          <Route path='/ImageDetector' element = {<ImageDetectorScreen/>}/>
-          <Route path='/Features' element = {<Features/>}/>
-          <Route path='/Community' element = {<Community/>}/>
-          <Route path='/howItWorks' element = {<HowItWorks/>}/>
-          <Route path='*' element = {<Error/>}/>
+          <Route index element={<ImageDetectorScreen />} />
+          <Route path='/TextDetector' element={<TextDetectorScreen />} />
+          <Route path='/ImageDetector' element={<ImageDetectorScreen />} />
+          <Route path='/Features' element={<Features />} />
+          <Route path='/Community' element={<Community />} />
+          <Route path='/howItWorks' element={<HowItWorks />} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </BrowserRouter>
     </div>

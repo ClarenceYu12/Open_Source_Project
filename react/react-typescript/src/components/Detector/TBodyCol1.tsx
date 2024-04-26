@@ -1,5 +1,5 @@
 import React from 'react';
-import TextBox from './function/TextBox';
+import TextBox from '../function/TextBox';
 import '../style.css';
 
 function TBodyCol1() {

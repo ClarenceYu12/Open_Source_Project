@@ -2,6 +2,7 @@ import '../components/style.css';
 import Header from '../components/Header';
 import FeatureBody from '../components/FeatureBody';
 import Footer from '../components/Footer';
+import React from 'react';
 
 function Features() {
     return(

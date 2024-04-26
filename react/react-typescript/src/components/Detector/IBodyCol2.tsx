@@ -18,7 +18,7 @@ function IBodyCol2() {
             <div className='column subcol1-1'>
                 <h2 className='title4'>Human</h2>
                 <div>
-                <img src={Image} alt="Image created by human" className="image" style={{width: '300px', height: '150px'}} />
+                <img src={Image} alt="Image created by human" className="image" />
                 </div>
             </div>
             
@@ -26,7 +26,7 @@ function IBodyCol2() {
             <div className='column subcol1-2'>
                 <h2 className='title4'>AI</h2>
                 <div>
-                <img src={AiImage} alt="Image generated with AI" className="AI image" style={{width: '300px', height: '150px'}} />
+                <img src={AiImage} alt="Image generated with AI" className="image"/>
                 </div>
             </div>
         </div>
