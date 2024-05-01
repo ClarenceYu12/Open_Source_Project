@@ -5,12 +5,12 @@ import { useNavigate } from "react-router-dom"
 function IChoiceBox() {
     const navigate = useNavigate()
     return(
-        <div className='choiceNet'>
+        <div className='choice-net'>
             <div className='row'>     
             
-            <div className='detectorChosen'>Image</div>
+            <div className='detector-chosen'>Image</div>
             
-            <button onClick={() => navigate('/TextDetector')} className='detectorChoice'>Text</button>
+            <button onClick={() => navigate('/TextDetector')} className='detector-choice'>Text</button>
         </div>
       </div>
     );

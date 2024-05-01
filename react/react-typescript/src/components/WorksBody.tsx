@@ -4,7 +4,7 @@ import './style.css'
 function WorksBody() {
     return (
         <div className='App'>
-            <p className='WorksTitle'>How it Works</p>
+            <p className='works-title'>How it Works</p>
         </div>
     );
 }

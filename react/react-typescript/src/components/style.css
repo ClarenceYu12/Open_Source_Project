@@ -1,43 +1,42 @@
 /* Header */
 .title {
-  font-size: 48px; /* Set font size for the title */
+  font-size: 48px;
   margin-left: 1vw;
   margin-top: 40px;
   white-space: nowrap;
 }
 
-
 .text {
-  font-size: 30px; /* Set font size for the text */
+  font-size: 30px;
   margin-top: 40px;
   margin-left: 2vw;
   white-space: nowrap;
 }
 
 .vl1 {
-  border-left: 3px solid #53ee7f; /* Adjust color and thickness as needed */
-  height: 80px; /* Adjust height as needed */
-  margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+  border-left: 3px solid #53ee7f;
+  height: 80px;
+  margin-top: 20px;
   margin-left: 45vw;
 }
 
 .vl2 {
-  border-left: 3px solid #53ee7f; /* Adjust color and thickness as needed */
-  height: 80px; /* Adjust height as needed */
-  margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+  border-left: 3px solid #53ee7f;
+  height: 80px;
+  margin-top: 20px;
   margin-left: 2vw;
 }
 
 .hl1 {
   border-top: 3px solid #53ee7f;
-  width: 95vw; /* Adjust height as needed */
+  width: 95vw;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
 }
 
 /* Body */
-.headerOptions {
-  font-size: 30px; /* Set font size for the title */
+.header-options {
+  font-size: 30px;
   color: #53ee7f;
   background-color: #373838;
   margin-left: 40px;
@@ -46,31 +45,31 @@
 }
 
 .title2 {
-  font-size: 40px; /* Set font size for the title */
+  font-size: 40px;
   margin-top: 70px;
   margin-left: 30px;
   white-space: nowrap;
 }
 
 .title3 {
-  font-size: 40px; /* Set font size for the title */
+  font-size: 40px;
   margin-top: 70px;
   white-space: nowrap;
 }
 
 .title4 {
-  font-size: 30px; /* Set font size for the title */
+  font-size: 30px;
   white-space: nowrap;
 }
 
 .text2 {
-  font-size: 24px; /* Set font size for the text */
+  font-size: 24px;
   width: 40vw;
 }
 
 .text3 {
-  font-size: 20px; /* Set font size for the text */
-  color:#b6b6b6;
+  font-size: 20px;
+  color: #b6b6b6;
   margin-left: 20px;
   margin-top: center;
 }
@@ -81,30 +80,30 @@
 }
 
 .column {
-  margin: 10px 20px; /* Add spacing between columns */
+  margin: 10px 20px;
 }
 
 .column1, .column2 {
-  width: 47%; /* Set width to half of the viewport width */
+  width: 47%;
   margin-left: 100px;
 }
 
 .subcol1-1, .subcol1-2 {
   margin-top: -40px;
-  width: 25vw; /* Set width to half of the viewport width */
+  width: 25vw;
 }
 
 .hl2 {
   border-top: 3px solid #6e6e6e;
-  width: 700px; /* Adjust height as needed */
-  margin-top: 20px; /* Adjust margin as needed to position the vertical line */
+  width: 700px;
+  margin-top: 20px;
   margin-left: 30px;
 }
 
 .hl3 {
   border-top: 3px solid #53ee7f;
-  width: 95vw; /* Adjust height as needed */
-  margin-top: 60px; /* Adjust margin as needed to position the vertical line */
+  width: 95vw;
+  margin-top: 60px;
   margin-left: 2.5vw;
 }
 
@@ -113,8 +112,8 @@
   height: 250px;
   border: 2px dashed #ccc;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
   margin-left: 60px;
 }
 
@@ -129,7 +128,7 @@
 
 .textBox {
   width: 625px;
-  height: 250px; /* Adjust as needed */
+  height: 250px;
   margin-left: 60px;
   padding: 5px;
   border: 2px solid #cccccc;
@@ -151,10 +150,10 @@
   color: #b7b7b7;
   background-color: #ffffff;
   display: flex;
-  justify-content: last baseline; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: baseline;
+  align-items: center;
   margin-top: 20px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .button {
@@ -164,75 +163,75 @@
   height: 45px;
   background-color: rgb(83, 238, 127);
   color: #ffffff;
-  border-radius: 20px 0px 20px 20px; /* Top-left, top-right, bottom-right, bottom-left */
+  border-radius: 20px 0px 20px 20px;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 /* Choice Box */
-.detectorChoice {
+.detector-choice {
   margin-top: 20px;
   margin: 1vw;
   width: 43vw;
   height: 60px;
-  border:#ffffff;
+  border: #ffffff;
   background-color: #8a8a8a;
   color: #ffffff;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }
 
-.detectorChosen {
+.detector-chosen {
   margin-top: 20px;
   margin: 1vw;
   width: 43vw;
   height: 60px;
-  border:#ffffff;
+  border: #ffffff;
   background-color: #53ee7f;
   color: #ffffff;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }
 
-.choiceNet {
+.choice-net {
   margin-top: 20px;
   margin-left: 4vw;
   width: 90vw;
   height: 80px;
-  border:#ffffff;
+  border: #ffffff;
   background-color: rgb(71, 71, 71);
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 /* Community */
 
-.communityText {
+.community-text {
   font-size: 30px;
   margin-left: 3vw;
   margin-top: 0px;
-  width: 35vw
+  width: 35vw;
 }
 
-.communityButton {
+.community-button {
   width: 50vw;
   height: 175px;
   background-color: #53ee7f;
-  color:#ffffff;
+  color: #ffffff;
   margin-left: 45vw;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
 }
 
-.communityTitle {
+.community-title {
   color: #ffffff;
   margin-left: 20px;
 }
 
-.communityText2 {
+.community-text2 {
   color: #ffffff;
   margin-left: 20px;
   margin-top: 10px;
@@ -240,22 +239,22 @@
 }
 
 /* Feature */
-.featureBox {
+.feature-box {
   background-color: rgb(83, 238, 127);
   color: #ffffff;
   margin-top: 30px;
   margin-left: 2vw;
   width: 22vw;
   height: 500px;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
 }
 
-.featureTitle {
+.feature-title {
   color: #ffffff;
   margin-left: 20px;
 }
 
-.featureText {
+.feature-text {
   color: #ffffff;
   margin-left: 20px;
   margin-right: 20px;
@@ -264,9 +263,7 @@
 }
 
 /* How it works */
-.WorksTitle {
+.works-title {
   color: #53ee7f;
   font-size: 20px;
 }
-
-
