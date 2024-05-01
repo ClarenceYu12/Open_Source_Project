@@ -15,33 +15,31 @@
 }
 
 .vl1 {
-  border-left: 3px solid rgb(83, 238, 127); /* Adjust color and thickness as needed */
+  border-left: 3px solid #53ee7f; /* Adjust color and thickness as needed */
   height: 80px; /* Adjust height as needed */
   margin-top: 20px; /* Adjust margin as needed to position the vertical line */
   margin-left: 45vw;
 }
 
 .vl2 {
-  border-left: 3px solid rgb(83, 238, 127); /* Adjust color and thickness as needed */
+  border-left: 3px solid #53ee7f; /* Adjust color and thickness as needed */
   height: 80px; /* Adjust height as needed */
   margin-top: 20px; /* Adjust margin as needed to position the vertical line */
   margin-left: 2vw;
 }
 
 .hl1 {
-  border-top: 3px solid rgb(83, 238, 127);
+  border-top: 3px solid #53ee7f;
   width: 95vw; /* Adjust height as needed */
-  margin-top: 0px; /* Adjust margin as needed to position the vertical line */
   margin-left: 2.5vw;
   margin-right: 2.5vw;
 }
 
 /* Body */
-
 .headerOptions {
   font-size: 30px; /* Set font size for the title */
-  color: rgb(83, 238, 127);
-  background-color: rgb(55, 56, 56);
+  color: #53ee7f;
+  background-color: #373838;
   margin-left: 40px;
   border: none;
   white-space: nowrap;
@@ -56,23 +54,18 @@
 
 .title3 {
   font-size: 40px; /* Set font size for the title */
-  margin-left: 0px;
   margin-top: 70px;
   white-space: nowrap;
 }
 
 .title4 {
   font-size: 30px; /* Set font size for the title */
-  margin-left: 0px;
-  margin-top: 0px;
   white-space: nowrap;
 }
 
 .text2 {
   font-size: 24px; /* Set font size for the text */
   width: 40vw;
-  margin-left: 0px;
-  margin-top: 0px;
 }
 
 .text3 {
@@ -91,25 +84,25 @@
   margin: 10px 20px; /* Add spacing between columns */
 }
 
-.column1, .column2{
+.column1, .column2 {
   width: 47%; /* Set width to half of the viewport width */
   margin-left: 100px;
 }
 
-.subcol1-1, .subcol1-2{
+.subcol1-1, .subcol1-2 {
   margin-top: -40px;
   width: 25vw; /* Set width to half of the viewport width */
 }
 
-.hl2{
-  border-top: 3px solid rgb(110, 110, 110);
+.hl2 {
+  border-top: 3px solid #6e6e6e;
   width: 700px; /* Adjust height as needed */
   margin-top: 20px; /* Adjust margin as needed to position the vertical line */
   margin-left: 30px;
 }
 
-.hl3{
-  border-top: 3px solid rgb(83, 238, 127);
+.hl3 {
+  border-top: 3px solid #53ee7f;
   width: 95vw; /* Adjust height as needed */
   margin-top: 60px; /* Adjust margin as needed to position the vertical line */
   margin-left: 2.5vw;
@@ -130,13 +123,6 @@
   height: 150px;
 }
 
-.text {
-  width: 480px;
-  height: 35px;
-  font-size: 18px;
-  margin-top: 20px;
-}
-
 .textBoxWrapper {
   position: relative;
 }
@@ -146,7 +132,7 @@
   height: 250px; /* Adjust as needed */
   margin-left: 60px;
   padding: 5px;
-  border: 2px solid #ccc;
+  border: 2px solid #cccccc;
   border-radius: 5px;
   font-size: 16px;
   resize: none;
@@ -185,33 +171,33 @@
 }
 
 /* Choice Box */
-.detectorChoice{
+.detectorChoice {
   margin-top: 20px;
   margin: 1vw;
   width: 43vw;
   height: 60px;
   border:#ffffff;
-  background-color: rgb(138, 138, 138);
+  background-color: #8a8a8a;
   color: #ffffff;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 }
 
-.detectorChosen{
+.detectorChosen {
   margin-top: 20px;
   margin: 1vw;
   width: 43vw;
   height: 60px;
   border:#ffffff;
-  background-color: rgb(83, 238, 127);
+  background-color: #53ee7f;
   color: #ffffff;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 }
 
-.choiceNet{
+.choiceNet {
   margin-top: 20px;
   margin-left: 4vw;
   width: 90vw;
@@ -225,28 +211,28 @@
 
 /* Community */
 
-.communityText{
+.communityText {
   font-size: 30px;
   margin-left: 3vw;
   margin-top: 0px;
   width: 35vw
 }
 
-.communityButton{
+.communityButton {
   width: 50vw;
   height: 175px;
-  background-color: rgb(83, 238, 127);
-  color:rgb(255, 255, 255);
+  background-color: #53ee7f;
+  color:#ffffff;
   margin-left: 45vw;
   border-radius: 20px 20px 20px 20px;
 }
 
-.communityTitle{
+.communityTitle {
   color: #ffffff;
   margin-left: 20px;
 }
 
-.communityText2{
+.communityText2 {
   color: #ffffff;
   margin-left: 20px;
   margin-top: 10px;
@@ -254,7 +240,7 @@
 }
 
 /* Feature */
-.featureBox{
+.featureBox {
   background-color: rgb(83, 238, 127);
   color: #ffffff;
   margin-top: 30px;
@@ -264,12 +250,12 @@
   border-radius: 20px 20px 20px 20px;
 }
 
-.featureTitle{
-color: #ffffff;
-margin-left: 20px;
+.featureTitle {
+  color: #ffffff;
+  margin-left: 20px;
 }
 
-.featureText{
+.featureText {
   color: #ffffff;
   margin-left: 20px;
   margin-right: 20px;
@@ -278,8 +264,8 @@ margin-left: 20px;
 }
 
 /* How it works */
-.WorksTitle{
-  color: rgb(83, 238, 127);
+.WorksTitle {
+  color: #53ee7f;
   font-size: 20px;
 }
 
