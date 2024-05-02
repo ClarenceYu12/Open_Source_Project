@@ -163,9 +163,9 @@
   margin-left: 30px;
   width: 150px;
   height: 45px;
-  background-color: rgb(83, 238, 127);
+  background-color: #53ee7f;
   color: #fff;
-  border-radius: 20px 0px 20px 20px;
+  border-radius: 20px 1px 20px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +202,7 @@
   width: 90vw;
   height: 80px;
   border: #fff;
-  background-color: rgb(71, 71, 71);
+  background-color: #474747;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,7 +239,7 @@
 
 /* Feature */
 .feature-box {
-  background-color: rgb(83, 238, 127);
+  background-color: #53ee7f;
   color: #fff;
   margin-top: 30px;
   margin-left: 2vw;
