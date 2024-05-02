@@ -23,7 +23,7 @@ function TextBox() {
     };
 
     return (
-      <div className='textBoxWrapper'>
+      <div className='text-box-wrapper'>
         <textarea className='textBox' value={val} onChange={change} onFocus={handleFocus} onBlur={handleBlur} placeholder={(!isFocused && val === '') ? 'Enter text here...' : ''}></textarea>
         <div className='row'>
           <button onClick={click} className='button'> Check </button>

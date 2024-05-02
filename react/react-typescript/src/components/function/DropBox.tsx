@@ -100,7 +100,7 @@ export function FileDrop() {
           accept="image/*"
         />
       </div>
-      <div className='textBoxWrapper'>
+      <div className='text-box-wrapper'>
 
         <div className='row'>
           <button onClick={click} className='button'> Check </button>

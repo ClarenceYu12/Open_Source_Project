@@ -1,8 +1,8 @@
 .app {
-/* Define your base styles here */
+  /* Define your base styles here */
   width: 100%;
   margin: 0 auto;
-  }
+}
 
 @media screen and (max-width: 768px) {
   .app {

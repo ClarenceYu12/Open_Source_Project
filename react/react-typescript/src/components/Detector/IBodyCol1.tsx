@@ -1,6 +1,5 @@
 import React from 'react';
 import { FileDrop } from '../function/DropBox';
-import TextBox from '../function/UrlBar';
 import '../style.css';
 
 function IBodyCol1() {

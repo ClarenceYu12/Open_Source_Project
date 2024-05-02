@@ -1,4 +1,3 @@
-import exp from 'constants';
 import './style.css'
 import React from 'react';
 
