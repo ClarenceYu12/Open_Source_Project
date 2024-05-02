@@ -83,12 +83,14 @@
   margin: 10px 20px;
 }
 
-.column1, .column2 {
+.column1,
+.column2 {
   width: 47%;
   margin-left: 100px;
 }
 
-.subcol1-1, .subcol1-2 {
+.subcol1-1,
+.subcol1-2 {
   margin-top: -40px;
   width: 25vw;
 }
@@ -107,7 +109,7 @@
   margin-left: 2.5vw;
 }
 
-.imageBox {
+.image-box {
   width: 625px;
   height: 250px;
   border: 2px dashed #ccc;
@@ -122,33 +124,33 @@
   height: 150px;
 }
 
-.textBoxWrapper {
+.text-box-wrapper {
   position: relative;
 }
 
-.textBox {
+.text-box {
   width: 625px;
   height: 250px;
   margin-left: 60px;
   padding: 5px;
-  border: 2px solid #cccccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
   resize: none;
   overflow-y: auto;
 }
 
-.textBox::placeholder {
+.text-box::placeholder {
   text-align: center;
   line-height: 250px;
 }
 
-.UrlBar {
+.url-bar {
   width: 460px;
   height: 40px;
   border: 2px solid #b6b6b6;
   color: #b7b7b7;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: baseline;
   align-items: center;
@@ -162,7 +164,7 @@
   width: 150px;
   height: 45px;
   background-color: rgb(83, 238, 127);
-  color: #ffffff;
+  color: #fff;
   border-radius: 20px 0px 20px 20px;
   display: flex;
   justify-content: center;
@@ -172,12 +174,11 @@
 /* Choice Box */
 .detector-choice {
   margin-top: 20px;
-  margin: 1vw;
   width: 43vw;
   height: 60px;
-  border: #ffffff;
+  border: #fff;
   background-color: #8a8a8a;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,12 +186,11 @@
 
 .detector-chosen {
   margin-top: 20px;
-  margin: 1vw;
   width: 43vw;
   height: 60px;
-  border: #ffffff;
+  border: #fff;
   background-color: #53ee7f;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +201,7 @@
   margin-left: 4vw;
   width: 90vw;
   height: 80px;
-  border: #ffffff;
+  border: #fff;
   background-color: rgb(71, 71, 71);
   display: flex;
   justify-content: center;
@@ -213,7 +213,6 @@
 .community-text {
   font-size: 30px;
   margin-left: 3vw;
-  margin-top: 0px;
   width: 35vw;
 }
 
@@ -221,18 +220,18 @@
   width: 50vw;
   height: 175px;
   background-color: #53ee7f;
-  color: #ffffff;
+  color: #fff;
   margin-left: 45vw;
   border-radius: 20px;
 }
 
 .community-title {
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
 }
 
 .community-text2 {
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
   margin-top: 10px;
   font-size: 20px;
@@ -241,7 +240,7 @@
 /* Feature */
 .feature-box {
   background-color: rgb(83, 238, 127);
-  color: #ffffff;
+  color: #fff;
   margin-top: 30px;
   margin-left: 2vw;
   width: 22vw;
@@ -250,12 +249,12 @@
 }
 
 .feature-title {
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
 }
 
 .feature-text {
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
